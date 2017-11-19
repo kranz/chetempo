@@ -1,9 +1,9 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 require('./index.css');
-var HelloWorld = require('./components/HelloWorld');
+var App = require('./components/App');
 
 ReactDOM.render(
-	<HelloWorld />,
+	<App />,
 	document.getElementById('app')
 )
